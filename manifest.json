@@ -1,0 +1,12 @@
+{
+    "name": "iPlayerPause",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Play and pause iPlayer.",
+    "content_scripts": [
+        {
+            "matches": ["http://www.bbc.co.uk/programmes/*"],
+            "js": ["pause.js"]
+        }
+    ]
+}
